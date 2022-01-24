@@ -9,7 +9,7 @@ opt.headless = True
 chrome_driver_path = r'C:\Users\User\AppData\Local\SeleniumBasic\chromedriver.exe'
 ser = Service(chrome_driver_path)
 
-driver = webdriver.Chrome(service=ser,)
+driver = webdriver.Chrome(service=ser)
 # driver = webdriver.Chrome(service=ser, options=opt)  # open headless
 driver.get('http://secure-retreat-92358.herokuapp.com/')
 
